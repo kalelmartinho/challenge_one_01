@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge #1 - Oracle ONE</title>
+    <link rel="shortcut icon" type="imagex/png" href="./assets/img/alura-logo-min.svg">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <main>
+        <div id="one-header">
+            <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">
+                <img class="logo" src="./assets/img/one-icon.png" alt="Logo oracle next education">
+                <img class="logo-min" src="./assets/img/one-min.png" alt="Logo oracle next education">
+            </a>
+        </div>
+        <div class="primeira-col">
+            <textarea name="text" id="text" placeholder="Digite seu texto"></textarea>
+            <div>
+                <div class="aviso">
+                    <img src="./assets/img/exclamation.svg">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="primeira-col-btn">
+                    <button class="btn btn-blue" onclick="cryptText()">Criptografar</button>
+                    <button class="btn" onclick="uncryptText()">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="segunda-col">
+            <div class="segunda-col-empty" >
+                <img src="./assets/img/high-quality-products.svg" alt="Ilustração de um menino com uma lupa">
+                <div class="segunda-col-empty-desc">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+            <div class="segunda-col-text" style="display: none;">
+                <textarea name="text-cripto" id="text-cripto"></textarea>
+                <button class="btn btn-copiar">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p><span>Kalel L. Martinho</span> 2022</p>
+        <div>
+            <a href="http://www.kalel.me/" target="_blank"><img src="./assets/img/user-solid.svg" alt="user icon" class="filter-blue"></a>
+            <a href="https://github.com/kalelmartinho" target="_blank"><img src="./assets/img/github-brands.svg" alt="github icon"></a>
+            <a href="https://www.linkedin.com/in/kalelmartinho/" target="_blank"><img src="./assets/img/linkedin-in-brands.svg" alt="linkedin icon"></a>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
