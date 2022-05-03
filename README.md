@@ -1,10 +1,10 @@
 ## #1 Challenge [Oracle Next Education](https://www.oracle.com/br/education/oracle-next-education/)
 
-![](https://www.oracle.com/a/ocom/img/rh03-one-v-black-br.png)
+![](https://www.alura.com.br/assets/img/challenges/oracle-one/logo_oracleAlura-ptbr.svg)
 
 
-### [Projeto no GitHub Pages]()
-### [Repositório do projeto oficial](https://github.com/alura-cursos/imersaodados3)
+### [Projeto no GitHub Pages](https://kalelmartinho.github.io/challenge_one_01/)
+### [Repositório do projeto oficial](https://github.com/alura-challenges/challenge-one-decodificador-br)
 ### [Página oficial do desafio](https://www.alura.com.br/challenges/oracle-one/semana01e02-construa-decodificador-texto-com-javascript)
 
 ---
